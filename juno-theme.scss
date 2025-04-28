@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+$primary: #418045;
+$secondary: #59595c;
+$accent: #f8c218;
+$highlight: #177b78;
+$link-color: #24bbe1;
+$background: #f4f4f4;
+$text-color: #59595c;
+
+$body-bg: $background;
+$body-color: $text-color;
+
+/*-- scss:rules --*/
+.reveal {
+  background-color: $body-bg;
+  color: $body-color;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: $primary;
+}
+
+.reveal a {
+  color: $link-color;
+}
+
+.reveal strong {
+  color: $accent;
+}
+
+.reveal code {
+  color: $highlight;
+  background-color: lighten($secondary, 40%);
+}
+
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-left {
+  color: $primary;
+}

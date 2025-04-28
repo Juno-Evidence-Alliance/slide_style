@@ -1,0 +1,47 @@
+---
+title: "Demo of Juno slide style"
+author: YourName
+email: Youremail
+format:
+  revealjs:
+    css: juno.css
+    slide-number: true
+    show-slide-number: all
+    logo: images/JUNO_TAGLINE.png
+editor: visual
+---
+
+# Welcome
+
+This presentation shows off the custom style!
+
+## First Slide
+
+This is the first real slide.\
+It's created by the `##` heading.
+
+-   Bullet points
+-   Custom styled!
+
+## Second Slide
+
+Another slide here!
+
+You can also have **markdown** formatting: - *italic* - **bold** - `code`
+
+## Third Slide
+
+> "Maybe a quote too?"
+
+Custom styles can even style blockquotes!
+
+## Last Slide
+
+To add an image use this code:
+
+\!\[An image\]\(images/1800.jpg\)\{fig-alt="A Siamese Fireback"\}
+
+
+It looks like this:
+
+![An image](images/1800.jpg){fig-alt="A Siamese Fireback"}

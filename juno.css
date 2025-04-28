@@ -1,0 +1,28 @@
+.reveal {
+  background-color: #f4f4f4;
+    color: #59595c;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: #418045;
+}
+
+.reveal a {
+  color: #24bbe1;
+}
+
+.reveal strong {
+  color: #f8c218;
+}
+
+.reveal code {
+  color: #177b78;
+    background-color: #d3d3d5;
+}
+
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-left {
+  color: #418045;
+}
