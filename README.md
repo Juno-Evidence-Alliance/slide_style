@@ -9,14 +9,17 @@ juno-theme.scss: The SCSS source file (for customisation).
 
 README.md: This file explaining how to use the styles.
 
-Demo_of_juno style.qmd: A demo presentation showcasing the juno.css style.
+Demo_of_Juno style.qmd: A demo presentation showcasing the juno.css style.
 
-Demo_of_juno style.html: The compiled HTML presentation using the juno.css style.
+Demo_of_Juno style.html: The compiled HTML presentation using the juno.css style.
 
-Demo_of_juno style_files/: A folder containing the compiled assets for the demo presentation.
+Demo_of_Juno style_files/: A folder containing the compiled assets for the demo presentation.
 
 images/: A folder containing images used in the demo presentation.
 
+## Demo of the slide style
+
+You can find a html demo of the slide style [here](https://juno-evidence-alliance.github.io/slide_style/Demo_of_Juno_style.html#/title-slide)
 
 ## How to Use
 Option 1: Clone the Repository
@@ -45,7 +48,7 @@ You can also use the hosted version of the CSS file if you don't want to clone t
 ```yaml
 format:
   revealjs:
-    css: https://github.com/Juno-Evidence-Alliance/slide_style/juno.css
+    css: https://juno-evidence-alliance.github.io/slide_style/juno.css
     slide-number: true
     show-slide-number: all
     logo: images/JUNO_TAGLINE.png
